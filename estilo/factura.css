@@ -1,0 +1,53 @@
+*{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#logotipo{
+	background-color:#FFCC00;
+	border-radius: 5px;
+	padding:10px;
+	padding-left: 0px;
+	width: 250px;
+	text-align: center;
+}
+.tabla{
+	width: 280px;
+	position:absolute;
+	right: 10px;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+.tabla td{
+	border:solid 1px black;
+	padding-left: 10px;
+}
+.restaurante,.tablePedidos{
+	margin-top:40px;
+	border-collapse: collapse;
+	width: 70%;
+}
+.restaurante td{
+	border:solid 1px black;
+}
+#tdLogo{
+	text-align: center;
+}
+#logo{
+	border-radius: 50%;
+}
+.tablePedidos{
+	width: 100%;
+}
+.tablePedidos th{
+	text-align: center;
+}
+.tablePedidos th, .tablePedidos td{
+	border:solid 1px black;
+}
+#info{
+	position: absolute;
+	bottom:10px;
+}
+#info h2{
+	text-align: center;
+}
+

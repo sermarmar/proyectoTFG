@@ -1,0 +1,126 @@
+/* CSS Document */
+
+.panel-heading h1{
+	font-family: Convergence !important;
+	color:white;
+	border-radius:7px !important;
+}
+#error{
+	color:#C50801;
+	display:none;
+}
+.panel, .panel .form-control{
+	border-color:#C50801;
+	border-width: 3px;
+	border-radius: 0;
+}
+.panel{
+	color:#C50801;
+	margin:30px auto;
+	width: 550px;
+	box-shadow: 2px 2px 10px hsla(135, 0%, 61%, 0.65);
+	overflow: hidden;
+}
+.panel .form-control{
+	font-family:  AlegreyaSans !important;
+}
+.panel .form-control:focus{
+	border-color:#25C0F8;
+}
+#slider-container{
+	width: 2500px;
+}
+.slider-box{
+	float:left;
+	margin-right: 230px;
+}
+.tablaRegister{
+	width: 500px;
+	margin-top:-25px;
+}
+.tablaRegister td{
+	padding:5px;
+}
+#calendario td{
+	padding-right: 10px;
+}
+#dia{
+	width: 70px;
+}
+
+/*#enviar{
+	background-color:#FFD6A8;
+	color:white;
+	cursor: not-allowed !important;
+}*/
+
+.next, .back, #enviar{
+	float: right;
+}
+
+.next,.back{
+	background-color: #FF9600;
+}
+.next:hover,.back:hover{
+	background-color:hsla(41,100%,50%,1.00) !important;
+	color:#C50801;
+}
+.next:active,.back:active{
+	background-color:#C50801 !important;
+	color:hsla(41,100%,50%,1.00) !important;
+}
+.next:focus,.back:focus{
+	background-color:#FF9600 !important;
+	color:black !important;
+}
+#balloon{
+	border:solid 1px gray;
+	background-color:white;
+	display:none;
+	position: absolute;
+	padding:5px;
+	margin-top:10px;
+	margin-left: -50px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px hsla(57, 0%, 73%, 0.74);
+}
+#balloon:before{
+	content:"";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid gray;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	margin: -15px 0 0 110px;
+}
+.row{
+	padding-left: 6px !important;
+}
+.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-6{
+	padding:0px !important;
+	padding-left: 10px !important;
+}
+.eligeLocalidad{
+	display:none;
+	position: fixed;
+	width: 250px;
+	border-bottom: solid 3px #C50801;
+	z-index: 300;
+	clear:both;
+}
+#tableLocalidad{
+	padding:0px;
+	background: rgba(255,255,255,1.00);
+	width: 100%;
+}
+#tableLocalidad tr{
+	cursor: pointer;
+	transition: all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+}
+#tableLocalidad tr:hover{
+	background-color: hsla(41,100%,50%,1.00);
+}

@@ -1,0 +1,303 @@
+/*body{
+	background-color:white;
+	background-image: none;
+}*/
+
+h3{
+	margin-top:-5px;
+}
+#encabezado, #filtros{
+	background-color:hsla(48,100%,50%,1.00);
+	color:#C50801;
+	padding:10px 20px;
+	font-size:23px;
+	border-radius: 30px;
+}
+#cajaPedido{
+	padding:10px 40px;
+}
+.navbar a{
+	color:white;
+	margin:0;
+	padding:15px !important;
+	font-size:20px;
+	outline: none;
+}
+#admin{
+	margin-top:50px;
+	margin-right: 0px;
+}
+#admin .panel{
+	border:none;
+	border-radius: 0px;
+	box-shadow: 8px 0px 0px hsla(182, 0%, 71%, 0.51);
+}
+#admin .panel-heading{
+	background-color:#C50801 !important;
+	color:white;
+}
+
+#fixed{
+	display: block;
+	position: fixed;
+	z-index: 50;
+	
+}
+.info{
+	color:white;
+	font-family: BreeSerif;
+	font-size:40px;
+	height: 100px;
+	padding:10px;
+}
+.iconos{
+	font-size:60px;
+}
+.nombre{
+	font-size:12px;
+}
+.num{
+	float:right;
+	margin-top:-40px;
+	text-align: right;
+}
+.num span{
+	margin-top:10px;
+}
+.filaAdmin{
+	width: 97% !important;
+}
+.administrar{
+	padding:20px;
+	border-bottom: dotted 5px #C50801;
+	margin-left: 25%;
+}
+#custom{
+	overflow: hidden;
+    position: relative;
+    cursor: pointer;
+	background-color:hsla(48,100%,50%,1.00);
+	width: 120px;
+	height: 120px;
+	border:solid 5px #C50801;
+	border-radius:50%;
+	font-size:40px;
+	margin:auto;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#cambioFoto{
+	margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 10000px;
+    filter: alpha(opacity=0);
+   	position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+	z-index: 100 !important;
+}
+
+#tablaReciente, #edicionTable{
+	overflow-y: scroll;
+	height: 350px;
+	padding:0px;
+}
+
+#anadeComida{
+	margin-top:10px;
+}
+
+#title{
+	font-family: BreeSerif;
+	font-size:50px;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+#formfoto{
+	height: 50px;
+}
+#listaEnlace{
+	padding: 0px;
+	font-family: Convergence;
+}
+#listaEnlace .list-group{
+	margin-top:75px;
+}
+#listaEnlace .list-group-item{
+	border-radius: 0px !important;
+	border:none;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover{
+	background-color:#C50801 !important;
+}
+#graficoComida{
+	margin-left:15%;
+}
+/*********************
+	Barra lateral
+*********************/
+#tablaReciente::-webkit-scrollbar{
+	width: 7px;
+}
+#tablaReciente::-webkit-scrollbar-thumb{
+	background-color:rgba(197,8,1,1.00);
+	border-radius: 20px;
+}
+#tablaReciente::-webkit-scrollbar-track{
+	background-color:hsla(48,100%,50%,1.00);
+}
+
+/*******************
+	DashUsuario
+*******************/
+#bienvenido{
+	margin:0;
+	background-color:#C50801;
+	color:white;
+	padding:12px;
+	margin-left: -15px;
+}
+#filtros{
+	font-size:15px;
+	margin-bottom: 10px;
+	padding:10px;
+}
+.input-select{
+	background-color: white;
+	border-radius:3px;
+	border:none;
+	padding:2px 5px;
+}
+.dashUsuario, .dashAdm, #info{
+	margin-top:80px;
+}
+.comidasRestaurante td{
+	padding:10px !important;
+	height: 5px !important;
+}
+.comidasRestaurante input[type="text"]{
+	text-align: center;
+}
+.panel-title{
+	font-family: Convergence;
+	color:#C50801;
+}
+#accordion{
+	padding:0px 30px;
+}
+#accordion a{
+	color:#C50801;
+}
+#pedidos .panel-body{
+	color:#C50801;
+}
+#pedidos table{
+	width: 100%
+}
+#pedidos table tr{
+	border-bottom: 2px solid #C50801;
+}
+#pedidos table th{
+	padding-left:5px;
+}
+#sinBorde{
+	border-bottom:none !important;
+	border-top: 2px solid #C50801;
+}
+.strComida{
+	width: 150px;
+}
+.intPrecio{
+	width: 60px;
+}
+.controlUds{
+	color:#C50801;
+}
+.controlUds:active{
+	color:hsla(48,100%,50%,1.00);
+}
+.comidas{
+	border-bottom:none !important;
+}
+.drch{
+	text-align: right;
+}
+#contador{
+	background-color: #C50801;
+}
+#load{
+	display:none;
+	width:18px;
+}
+
+#tableDecision td{
+	border:none !important;
+}
+#intTarjeta{
+	width: 200px;
+}
+#cartilla{
+	display:none;
+}
+#cartilla table{
+	width: 60%;
+}
+#cartilla table td{
+	padding-left: 10px;
+}
+
+/*********************
+	DashRestuarante
+*********************/
+.controlPedido{
+	color:white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.colorLetra{
+	color:#C50801;
+}
+.glyphicon-ok{
+	background-color: hsla(125,100%,35%,1.00);
+}
+.glyphicon-ok:active{
+	background-color:hsla(123,100%,21%,1.00);
+}
+.glyphicon-remove{
+	background-color:#C50801;
+}
+.glyphicon-remove:active{
+	background-color:#920500;
+}
+#rojoPedido,#amarilloAnulado{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	display:inline-block;
+	
+}
+.error{
+	color:red;
+	display:none;
+}
+#rojoPedido{
+	background-color: #C50801;
+}
+#amarilloAnulado{
+	background-color: hsla(48,100%,50%,1.00);
+}
+
+
